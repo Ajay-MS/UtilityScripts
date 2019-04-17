@@ -11,5 +11,6 @@
 * Utility
   - Show notification window
   - Install MSI via PowerShell
+  - Remove windows services
 * WinRM
   - Verify WinRM Connection
