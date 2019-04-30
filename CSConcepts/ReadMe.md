@@ -1,12 +1,12 @@
 ## SaaS, PaaS, IaaS
 
-(images/s1.jpg)
+![Image1](../images/s1.jpg)
 
-(images/s2.jpg)
+![Image1](../images/s2.jpg)
 
-(images/s3.jpg)
+![Image1](../images/s3.jpg)
 
-(images/s4.jpg)
+![Image1](../images/s4.jpg)
 
 **Examples**
 
