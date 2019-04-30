@@ -4,9 +4,9 @@
 
 ![Image1](../images/s2.jpg)
 
-![Image1](../images/s3.jpg)
+![Image1](../images/s3.png)
 
-![Image1](../images/s4.jpg)
+![Image1](../images/s4.png)
 
 **Examples**
 
