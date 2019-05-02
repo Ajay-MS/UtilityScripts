@@ -24,3 +24,30 @@ To know what services are installed on the system.
 ```
 Get-Service | Where-Object {$_.status -eq "stopped"}
 ```
+
+#### Get-Process
+Quick list of currently running processes
+```
+Get-Process
+Stop-Process -processname notepad
+Stop-Process -processname note*
+```
+
+#### Where-Object
+To filter out from list of object.
+```
+Get-Service | Where-Object {$_.Status -eq 'Running'}
+```
+
+#### Foreach-object
+Iterate over each object
+```
+Get-Process | ForEach-Object {Write-Host $_.name -foregroundcolor cyan}
+```
+
+#### New-Object
+```
+$ourObject = New-Object -TypeName psobject
+
+$ourObject | Add-Member -MemberType NoteProperty -Name ComputerName -Value $computerInfo.Name
+```
