@@ -1,5 +1,7 @@
 # UtilityScripts
 
+* Azure Stack 
+  - Add Azure Stack account to Powershell
 * Encryption
   - Generate Base64 encoded string
   - Generate SHA256 encoded string
@@ -8,6 +10,7 @@
   - Detect Path of SQL Package.exe
 * Subscription
   - Validate SPN 
+  - Get access token 
 * Utility
   - Show notification window
   - Install MSI via PowerShell
