@@ -1,5 +1,13 @@
 ## Basic PowerShell cmdlets
 
+#### Powershell module installation path
+`PSModulePath` environment variable list our all installation path for PS modules.
+
+Possible installation paths :
+* $PSHome\Modules (%Windir%\System32\WindowsPowerShell\v1.0\Modules)
+* $Home\Documents\WindowsPowerShell\Modules (%UserProfile%\Documents\WindowsPowerShell\Modules)
+* $Env:ProgramFiles\WindowsPowerShell\Modules (%ProgramFiles%\WindowsPowerShell\Modules)
+
 #### Get-Command
 Commands available in current session. 
 ```
